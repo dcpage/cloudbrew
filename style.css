@@ -1,0 +1,63 @@
+body {
+background-color: grey;
+font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+  background-image: url('/images/brewingUp.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.content-box {
+    /* background-color: lightgrey; */
+    border: 3px rgb(0,0,180) solid;
+    padding: 1.5rem 1.5rem;
+    margin: 2rem 3rem;
+    color: white;
+
+}
+
+.badge-box {
+    /* background-color: lightgrey;
+    border: 3px #B39C4d solid;
+    padding: 1rem 1rem;
+    margin: 2rem 3rem; */
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+header {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    border: 3px rgb(0, 0, 180) solid;
+    /*background-color: lightgrey; */
+    justify-content: space-evenly;
+    margin: 2rem 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.centre-text {
+    text-align: center;
+}
+
+/* visited link */
+  a:visited { 
+    text-decoration :none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration :none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration :none;
+  }
